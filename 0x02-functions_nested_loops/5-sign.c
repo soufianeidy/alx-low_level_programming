@@ -21,3 +21,13 @@ int print_sign(int n) {
         return -1;
     }
 }
+int main() {
+    int number;
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    int sign = print_sign(number);
+    printf("\nSign: %d\n", sign);
+
+    return 0;
+}
